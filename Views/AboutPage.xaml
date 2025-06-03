@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PinedaLPruebaProgreso2.AboutPage"
+             Title="AboutPage">
+    <Grid Padding="20"
+          RowDefinitions="Auto,Auto"
+          ColumnDefinitions="*,*"
+          RowSpacing="15"
+          ColumnSpacing="15">
+
+        <Border Grid.Row="0" Grid.Column="0" Stroke="LightGray" StrokeThickness="1" BackgroundColor="White" 
+            StrokeShape="RoundRectangle 5">
+            <VerticalStackLayout Padding="10">
+                <Label Text="Nombre:" FontAttributes="Bold" TextColor="Black"/>
+                <Label Text="Luis Pineda"  TextColor="Black"/>
+            </VerticalStackLayout>
+        </Border>
+
+        <Border Grid.Row="0" Grid.Column="1" Stroke="LightGray" StrokeThickness="1" BackgroundColor="White" 
+            StrokeShape="RoundRectangle 5">
+            <StackLayout>
+                <Label Text="Nombre:" FontAttributes="Bold"  TextColor="Black"/>
+                <Label Text="03 de Junio del 2025"  TextColor="Black"/>
+            </StackLayout>
+        </Border>
+
+        <Border Grid.Row="1" Grid.Column="0" Stroke="LightGray" StrokeThickness="1" BackgroundColor="White" 
+            StrokeShape="RoundRectangle 5">
+            <StackLayout>
+                <Label Text="Intereses:" FontAttributes="Bold" TextColor="Black"/>
+                <Label Text="Saxofón y política"  TextColor="Black"/>
+            </StackLayout>
+        </Border>
+
+        <Border Grid.Row="1" Grid.Column="1" Stroke="LightGray" StrokeThickness="1" BackgroundColor="White" 
+            StrokeShape="RoundRectangle 5">
+            <StackLayout>
+                <Label Text="Version:" FontAttributes="Bold"  TextColor="Black"/>
+                <Label Text="1.0"  TextColor="Black"/>
+            </StackLayout>
+        </Border>
+        
+        
+
+
+    </Grid>
+</ContentPage>
