@@ -8,7 +8,10 @@
                Text="Tu mejor chiste"
                FontSize="20"
                HorizontalTextAlignment="Center"
-               VerticalTextAlignment="Center" />
+               VerticalTextAlignment="Center" 
+               />
+        <Label></Label>
+        <Label></Label>
         <Button Text="Estuvo gracioso dime otro"
                 Clicked="OnNuevoChisteClicked" />
     </StackLayout>
