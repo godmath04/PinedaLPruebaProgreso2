@@ -1,3 +1,5 @@
+using System.Diagnostics;
+
 namespace PinedaLPruebaProgreso2;
 
 public partial class ChistesPage : ContentPage
@@ -6,4 +8,11 @@ public partial class ChistesPage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+	private void OnNuevoChisteClicked(object sender, EventArgs e)
+	{
+		Debug.WriteLine("Si funciona el booton");
+	}
+
+
 }

@@ -8,7 +8,7 @@
     Title="PinedaLPruebaProgreso2">
 
     <ShellContent
-        Title="Home"
+        Title="Pineda L - Prueba de Progreso 2"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 
